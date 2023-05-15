@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket Raised</title>
+  </head>
+  <body>
+    <div
+      class="main-container"
+      style="
+        background-color: #f6f6f6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Inter;
+      "
+    >
+      <div class="header">
+        <picture>
+          <img
+            style="margin-top: 28px; margin-bottom: 20px"
+            src="../../images/logo.png"
+            alt=""
+          />
+        </picture>
+      </div>
+
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          width: 576px;
+          box-shadow: 0px 0px 20px rgba(88, 94, 131, 0.25);
+          border-radius: 10px;
+          padding: 30px;
+        "
+      >
+        <picture
+          style="
+            margin: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+          "
+        >
+          <img src="../../images/tricet.png" alt="" />
+        </picture>
+        <div style="font-weight: 700; word-spacing: 2px">
+          <h1 style="padding-top: 35px; font-weight: 700; font-size: 32px">
+            Ticket Raised!
+          </h1>
+          <p style="font-size: 13px; font-weight: 500; margin-top: 35px">
+            Hi &lt;john&gt;,
+          </p>
+          <p style="font-weight: 700; font-size: 13px">
+            Greetings for the day....
+          </p>
+          <div style="line-height: 20px; font-weight: 600">
+            <p style="font-weight: 400; font-size: 13px">
+              You have received a new ticket
+              <a href="" style="color: #ff5a00; text-decoration: none"
+                >&lt;Ticket ID&gt;</a
+              ><br />
+
+              kindly check the details below and take necessary action.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- form -->
+
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          width: 576px;
+          box-shadow: 0px 0px 20px rgba(88, 94, 131, 0.25);
+          border-radius: 10px;
+          padding: 30px;
+          margin-top: 15px;
+        "
+      >
+        <div style="display: flex; justify-content: space-between">
+          <div>
+            <div style="display: flex; flex-direction: column; padding: 1px">
+              <label
+                style="margin-top: 1px; margin-bottom: 1px; font-size: 13px"
+                >Ticket ID</label
+              >
+              <input
+                type="text"
+                placeholder="#1234567890"
+                style="
+                  border-radius: 6px;
+                  padding: 8px 10px;
+                  border: 1px #dbdbdb solid;
+                  width: 250px;
+                  margin-bottom: 10px;
+                  margin-top: 5px;
+                "
+              />
+            </div>
+            <div style="display: flex; flex-direction: column; padding: 1px">
+              <label
+                style="margin-top: 1px; margin-bottom: 1px; font-size: 13px"
+                >RT Name</label
+              >
+              <input
+                type="text"
+                placeholder="John Deo"
+                style="
+                  border-radius: 6px;
+                  padding: 8px 10px;
+                  border: 1px #dbdbdb solid;
+                  width: 250px;
+                  margin-bottom: 10px;
+                  margin-top: 5px;
+                "
+              />
+            </div>
+            <div style="display: flex; flex-direction: column; padding: 1px">
+              <label style="margin: 1px 0px; font-size: 13px">Order ID</label>
+              <input
+                type="text"
+                placeholder="#123456"
+                style="
+                  border-radius: 6px;
+                  padding: 8px 10px;
+                  border: 1px #dbdbdb solid;
+                  width: 250px;
+                  margin-bottom: 10px;
+                  margin-top: 5px;
+                "
+              />
+            </div>
+          </div>
+          <div>
+            <div style="display: flex; flex-direction: column; padding: 1px">
+              <label style="margin: 1px 0px; font-size: 13px">Status</label>
+              <input
+                type="text"
+                placeholder="Pending"
+                style="
+                  border-radius: 6px;
+                  padding: 8px 10px;
+                  border: 1px #dbdbdb solid;
+                  width: 250px;
+                  margin-bottom: 10px;
+                  margin-top: 5px;
+                "
+              />
+            </div>
+            <div style="display: flex; flex-direction: column; padding: 1px">
+              <label style="margin: 1px 0px; font-size: 13px">Date</label>
+              <input
+                type="text"
+                placeholder="24/04/2023"
+                style="
+                  border-radius: 6px;
+                  padding: 8px 10px;
+                  border: 1px #dbdbdb solid;
+                  width: 250px;
+                  margin-bottom: 10px;
+                  margin-top: 5px;
+                "
+              />
+            </div>
+            <div style="display: flex; flex-direction: column; padding: 1px">
+              <label style="margin: 1px 0px; font-size: 13px">Reason</label>
+              <input
+                type="text"
+                placeholder="Return"
+                style="
+                  border-radius: 6px;
+                  padding: 8px 10px;
+                  border: 1px #dbdbdb solid;
+                  width: 250px;
+                  margin-bottom: 10px;
+                  margin-top: 5px;
+                "
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <label style="margin: 1px 0px; font-size: 13px">Description </label>
+          <br />
+          <textarea
+            type="text"
+            placeholder="Discription"
+            style="
+              border-radius: 6px;
+              border: 1px #dbdbdb solid;
+              width: auto;
+              margin-bottom: 10px;
+              margin-top: 5px;
+            "
+            rows="4"
+            cols="76"
+          ></textarea>
+        </div>
+      </div>
+
+      <!-- more information -->
+
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          width: 576px;
+          box-shadow: 0px 0px 20px rgba(88, 94, 131, 0.25);
+          border-radius: 10px;
+          padding: 0px 30px;
+          margin-top: 15px;
+        "
+      >
+        <div style="font-size: 13px; line-height: 20px; font-weight: 500">
+          <p>
+            For more information please contact growder support.<a
+              href=""
+              style="
+                color: #ff5a00;
+                text-decoration: none;
+                font-weight: 600;
+                margin-left: 5px;
+              "
+              >&lt;support ID&gt;</a
+            >
+          </p>
+
+          <p>
+            Regards,<br />
+            Team Growder
+          </p>
+        </div>
+      </div>
+
+      <!-- footer -->
+
+      <div class="footer">
+        <div class="top-footer" style="text-align: center">
+          <p style="padding-top: 5%; color: #818181">Connect with us</p>
+          <div class="icons">
+            <picture
+              ><img src="../../images/face.svg" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/insta.svg" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/link.png" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/what.svg" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/twit.svg" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/pin.svg" alt="" style="padding: 10px"
+            /></picture>
+          </div>
+        </div>
+        <div
+          class="bottom-footer"
+          style="
+            width: 600px;
+            padding-top: 5%;
+            line-height: 20px;
+            font-size: 17px;
+            font-weight: 500;
+          "
+        >
+          <div class="content" style="text-align: justify">
+            <p style="color: #818181">
+              <span style="font-weight: bold; color: #5b5b5b">Disclaimer:</span>
+              The information in this E-mail (which includes any files
+              transmitted with it) is CONFIDENTIAL and may be legally
+              PRIVILEGED. It is intended solely for the addressee and access to
+              this email by anyone else is unauthorized. If you have received it
+              in error, please destroy any copies of this message, including any
+              attachments, and delete it from your system notifying the sender
+              immediately. Any disclosure, copying, distribution, dissemination,
+              forwarding, printing or any action taken or omitted to be taken in
+              reliance on it or utilizing the same for any purpose other than
+              what it is intended for, is prohibited and may be unlawful.
+            </p>
+            <p style="font-weight: bold; color: #5b5b5b">
+              Note: This is an autogenerated email please do not reply to this
+              email
+            </p>
+            <p style="color: #818181">
+              Click here to
+              <a href="" style="color: #5b5b5b; font-weight: bold"
+                >unsubscribe</a
+              >
+              or manage your email preferences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

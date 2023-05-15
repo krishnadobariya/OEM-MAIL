@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logistic</title>
+  </head>
+  <body>
+    <div
+      class="main-container"
+      style="
+        background-color: #f6f6f6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Inter;
+      "
+    >
+      <div class="header">
+        <picture>
+          <img
+            style="margin-top: 28px; margin-bottom: 20px"
+            src="../../images/logo.png"
+            alt=""
+          />
+        </picture>
+      </div>
+
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          width: 576px;
+          box-shadow: 0px 0px 20px rgba(88, 94, 131, 0.25);
+          border-radius: 10px;
+          padding: 30px;
+        "
+      >
+        <picture
+          style="
+            margin: auto;
+            width: auto;
+            display: flex;
+            justify-content: center;
+          "
+        >
+          <img src="../../images/details.png" alt="" />
+        </picture>
+        <div style="font-weight: 700; word-spacing: 2px">
+          <h1 style="padding-top: 35px; font-weight: 700; font-size: 32px">
+            Hi &lt;john&gt;,
+          </h1>
+          <p style="font-weight: 700; font-size: 13px; margin-top: 35px">
+            Greetings for the day....
+          </p>
+          <div style="line-height: 20px; font-weight: 600">
+            <p style="font-weight: 400; font-size: 13px">
+              Logistic partner will pick up the order
+              <a href="" style="color: #ff5a00; text-decoration: none"
+                >&lt;order id&gt;</a
+              >
+              by
+              <a href="" style="color: #ff5a00; text-decoration: none"
+                >&lt;date and time&gt;</a
+              >. Kindly<br />
+              check the details below.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- order details -->
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          width: 576px;
+          box-shadow: 0px 0px 20px rgba(88, 94, 131, 0.25);
+          border-radius: 10px;
+          padding: 30px;
+          margin-top: 15px;
+        "
+      >
+        <div>
+          <h1 style="font-weight: 700; font-size: 20px">Order Details</h1>
+
+          <div style="border: 2px #efefef solid; border-radius: 6px">
+            <h1
+              style="
+                font-weight: 500;
+                font-size: 20px;
+                color: #fff;
+                background-color: #ff5a00;
+                padding: 15px 20px;
+                margin-top: 0px;
+                border-radius: 5px 5px 0px 0px;
+              "
+            >
+              RT Name
+            </h1>
+            <p
+              style="
+                font-weight: 400;
+                font-size: 12px;
+                margin-top: -15px;
+                color: #000;
+                padding: 10px 12px;
+                background-color: #ffece2;
+              "
+            >
+              Order ID #123456
+            </p>
+            <div
+              style="
+                padding-top: 6px;
+                padding-bottom: 10px;
+                display: flex;
+                justify-content: start;
+              "
+            >
+              <picture
+                style="width: auto; border-radius: 4px; padding: 0px 20px"
+              >
+                <img
+                  src="../../images/port.png"
+                  alt=""
+                  style="width: 200px; margin: auto"
+                />
+              </picture>
+
+              <div style="padding: 0px 6px">
+                <div style="display: flex; justify-content: space-between">
+                  <p style="font-weight: 500; font-size: 20px; color: #000">
+                    Home center
+                  </p>
+                  <p
+                    style="
+                      font-weight: 600;
+                      font-size: 22px;
+                      color: #ff5a00;
+                      position: relative;
+                    "
+                  >
+                    <span
+                      style="
+                        font-size: 12px;
+                        position: absolute;
+
+                        left: -10px;
+                      "
+                    >
+                      ₹
+                    </span>
+                    1600
+                  </p>
+                </div>
+
+                <div>
+                  <p
+                    style="
+                      font-weight: 400;
+                      font-size: 16px;
+                      color: #000000;
+                      margin-top: -10px;
+                    "
+                  >
+                    Embellished Vase
+                  </p>
+                  <p
+                    style="
+                      font-weight: 400;
+                      font-size: 14px;
+
+                      color: #525252;
+                    "
+                  >
+                    Qty: 19
+                  </p>
+                  <p
+                    style="
+                      font-weight: 400;
+                      font-size: 14px;
+
+                      color: #525252;
+                      padding-bottom: 8px;
+                      padding-right: 14px;
+                    "
+                  >
+                    Date : 22 th April 2023
+                    <span style="margin-left: 10px">Time : 3:30 pm</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- logistic partner details -->
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          width: 576px;
+          box-shadow: 0px 0px 20px rgba(88, 94, 131, 0.25);
+          border-radius: 10px;
+          padding: 0px 30px;
+          margin-top: 15px;
+        "
+      >
+        <div>
+          <h1 style="font-weight: 700; font-size: 20px">
+            Logistic Partner Details
+          </h1>
+          <table
+            style="
+              border: 1px solid #dcdcdc;
+              border-collapse: collapse;
+              padding: 8px;
+              font-size: 13px;
+              margin-bottom: 20px;
+              margin-top: 15px;
+            "
+          >
+            <tr>
+              <th
+                style="
+                  border: 1px solid #dcdcdc;
+                  border-collapse: collapse;
+                  padding: 8px 0px;
+                  font-size: 13px;
+                  width: 150px;
+                "
+              >
+                Logistic Partner Name
+              </th>
+              <th
+                style="
+                  border: 1px solid #dcdcdc;
+                  border-collapse: collapse;
+                  padding: 8px 28px;
+                  font-size: 13px;
+                "
+              >
+                Contact Number
+              </th>
+              <th
+                style="
+                  border: 1px solid #dcdcdc;
+                  border-collapse: collapse;
+                  padding: 8px 8px;
+                  font-size: 13px;
+                "
+              >
+                Vehicle Number
+              </th>
+              <th
+                style="
+                  border: 1px solid #dcdcdc;
+                  border-collapse: collapse;
+                  padding: 8px 8px;
+                  font-size: 13px;
+                "
+              >
+                Expected Arrival
+              </th>
+            </tr>
+            <tr>
+              <td
+                style="
+                  border: 1px solid #dcdcdc;
+                  border-collapse: collapse;
+                  padding: 8px 28px;
+                  font-size: 12px;
+                "
+              >
+                john Deo
+              </td>
+              <td
+                style="
+                  border: 1px solid #dcdcdc;
+                  border-collapse: collapse;
+                  padding: 8px 28px;
+                  font-size: 12px;
+                "
+              >
+                1234567890
+              </td>
+              <td
+                style="
+                  border: 1px solid #dcdcdc;
+                  border-collapse: collapse;
+                  padding: 8px 28px;
+                  font-size: 12px;
+                "
+              >
+                GJ05RJ1234
+              </td>
+              <td
+                style="
+                  border: 1px solid #dcdcdc;
+                  border-collapse: collapse;
+                  padding: 8px 18px;
+                  font-size: 12px;
+                "
+              >
+                27/04/2023 4:15 pm
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- address -->
+
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          width: 576px;
+          box-shadow: 0px 0px 20px rgba(88, 94, 131, 0.25);
+          border-radius: 10px;
+          padding: 0px 30px;
+          margin-top: 15px;
+        "
+      >
+        <div>
+          <h1
+            style="
+              padding-top: 17px;
+              padding-bottom: 7px;
+              font-weight: 600;
+              font-size: 13px;
+              color: #000000;
+            "
+          >
+            Delivered Address
+          </h1>
+          <p style="font-weight: 400; font-size: 13px">
+            A-121, Hello Rivera, Nr.Business Indisign, <br />
+            Ghod Dod Road, Surat-395001
+          </p>
+        </div>
+      </div>
+
+      <!-- more information -->
+
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          background-color: #ffffff;
+          width: 576px;
+          box-shadow: 0px 0px 20px rgba(88, 94, 131, 0.25);
+          border-radius: 10px;
+          padding: 0px 30px;
+          margin-top: 15px;
+        "
+      >
+        <div style="font-size: 13px; line-height: 20px; font-weight: 500">
+          <p>
+            For more information please contact growder support.<a
+              href=""
+              style="
+                color: #ff5a00;
+                text-decoration: none;
+                font-weight: 600;
+                margin-left: 5px;
+              "
+              >&lt;support@growder.com&gt;</a
+            >
+          </p>
+
+          <p>
+            Regards,<br />
+            Team Growder
+          </p>
+        </div>
+      </div>
+
+      <!-- footer -->
+
+      <div class="footer">
+        <div class="top-footer" style="text-align: center">
+          <p style="padding-top: 5%; color: #818181">Connect with us</p>
+          <div class="icons">
+            <picture
+              ><img src="../../images/face.svg" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/insta.svg" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/link.png" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/what.svg" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/twit.svg" alt="" style="padding: 10px"
+            /></picture>
+            <picture
+              ><img src="../../images/pin.svg" alt="" style="padding: 10px"
+            /></picture>
+          </div>
+        </div>
+        <div
+          class="bottom-footer"
+          style="
+            width: 600px;
+            padding-top: 5%;
+            line-height: 20px;
+            font-size: 17px;
+            font-weight: 500;
+          "
+        >
+          <div class="content" style="text-align: justify">
+            <p style="color: #818181">
+              <span style="font-weight: bold; color: #5b5b5b">Disclaimer:</span>
+              The information in this E-mail (which includes any files
+              transmitted with it) is CONFIDENTIAL and may be legally
+              PRIVILEGED. It is intended solely for the addressee and access to
+              this email by anyone else is unauthorized. If you have received it
+              in error, please destroy any copies of this message, including any
+              attachments, and delete it from your system notifying the sender
+              immediately. Any disclosure, copying, distribution, dissemination,
+              forwarding, printing or any action taken or omitted to be taken in
+              reliance on it or utilizing the same for any purpose other than
+              what it is intended for, is prohibited and may be unlawful.
+            </p>
+            <p style="font-weight: bold; color: #5b5b5b">
+              Note: This is an autogenerated email please do not reply to this
+              email
+            </p>
+            <p style="color: #818181">
+              Click here to
+              <a href="" style="color: #5b5b5b; font-weight: bold"
+                >unsubscribe</a
+              >
+              or manage your email preferences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
